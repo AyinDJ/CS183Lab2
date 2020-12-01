@@ -22,7 +22,8 @@ file -b list.txt
 
 #4)fuser
 # shows which processes are using a file
-# Example 
+# Example To list the process numbers of local processes using the /etc/passwd file
+fuser /etc/passwd
 
 #5)grep
 # search through files or plaintext which matches the specified search criteria
